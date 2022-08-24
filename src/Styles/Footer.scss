@@ -1,0 +1,35 @@
+@import "../Variables/variables";
+@import "../App.css";
+
+footer {
+  background-color: $tertiaryColor;
+  margin: 0;
+  padding: 0;
+
+  p {
+    font-size: 17px;
+  }
+
+  li {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+
+  .linksContainer {
+    border-bottom: $border;
+    width: 90%;
+    padding-bottom: 50px;
+
+    .about {
+      padding-right: 100px;
+    }
+  }
+
+  .socialIconsContainer {
+    width: 90%;
+
+    .socialIcons {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "./Variables/variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// Common styles
+body {
+  h1 {
+    font-size: 23px;
+    letter-spacing: 3px;
+  }
+
+  h3 {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+
+  a:hover {
+    color: $primaryColor;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+}
