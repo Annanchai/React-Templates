@@ -1,0 +1,16 @@
+@import "../Variables/variables";
+@import "../App.css";
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: $border;
+
+  h2 {
+    font-size: 80px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../App.css";
+.productContainer {
+  position: relative;
+  max-width: 30%;
+}
+.productContainer img {
+  max-width: 100%;
+}
+.productContainer .button {
+  border-radius: 0;
+  position: absolute;
+  outline: none;
+  box-shadow: none;
+}
+.productContainer .button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.productContainer .badge-sale {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 0%;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px 15px;
+}
+.productContainer .button-view {
+  transform: translate(-50%, -40%);
+  left: 50%;
+  top: 40%;
+}
+.productContainer .cartButton {
+  border-radius: 0%;
+  padding: 10px 30px;
+}
+.productContainer .cartButton:focus {
+  box-shadow: none;
+  outline: none;
+}/*# sourceMappingURL=Product.css.map */

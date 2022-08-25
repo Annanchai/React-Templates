@@ -66,7 +66,13 @@ function Footer(props) {
         <div>
           <p>
             © 2022 Beaumont. Proudly powered by{" "}
-            <a href="https://www.anvicodes.com/">AnviCodes</a>
+            <a
+              href="https://www.anvicodes.com/"
+              target={"_blank"}
+              rel="noopener noreferrer"
+            >
+              AnviCodes
+            </a>
           </p>
         </div>
       </div>

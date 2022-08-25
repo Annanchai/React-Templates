@@ -7,6 +7,7 @@ import Shop from "./Pages/Shop";
 import Contact from "./Pages/Contact";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
+import Product from "./Components/Product";
 
 function App() {
   return (

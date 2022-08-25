@@ -1,0 +1,42 @@
+@import "../Variables/variables";
+@import "../App.css";
+
+.productContainer {
+  position: relative;
+  max-width: 30%;
+  img {
+    max-width: 100%;
+  }
+  .button {
+    border-radius: 0;
+    position: absolute;
+    outline: none;
+    box-shadow: none;
+  }
+  .button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .badge-sale {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 0%;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  .button-view {
+    transform: translate(-50%, -40%);
+    left: 50%;
+    top: 40%;
+  }
+  .cartButton {
+    border-radius: 0%;
+    padding: 10px 30px;
+  }
+  .cartButton:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}

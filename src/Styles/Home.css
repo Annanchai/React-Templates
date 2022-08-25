@@ -4,8 +4,11 @@
 }
 
 .banner {
-  max-width: 100%;
   transform: scale(1.2);
+}
+
+img {
+  max-width: 100%;
 }
 
 .contentContainer {
@@ -22,6 +25,32 @@
   padding: 15px 30px;
 }
 
-.featured {
+.featured,
+.categories {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.highlight {
+  position: relative;
+}
+.highlight .button {
+  border-radius: 0;
+  padding: 15px 30px;
+}
+.highlight p {
+  margin-top: 20px;
+}
+.highlight .highlightContent {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.categories .card {
+  width: 20%;
+  border: none;
+  border-radius: 0%;
 }/*# sourceMappingURL=Home.css.map */
