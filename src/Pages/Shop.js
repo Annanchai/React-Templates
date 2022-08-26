@@ -1,11 +1,11 @@
 import React from "react";
 import Product from "../Components/Product";
-import "../Styles/shop.css";
+import "../Styles/Shop.css";
 import Products from "../Variables/data";
 
 function Shop(props) {
   return (
-    <div>
+    <div className="shop ms-auto me-auto">
       <section className="heading text-center">
         <h2>Shop</h2>
         <p className="w-50 ms-auto me-auto">
@@ -13,7 +13,7 @@ function Shop(props) {
           will help your customers.
         </p>
       </section>
-      <section className="products">
+      <section className="products d-flex flex-wrap">
         {Products.map((item) => {
           const salePrice = Math.round((item.price * item.discount) / 100);
           return (

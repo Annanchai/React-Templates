@@ -5,6 +5,7 @@
 }
 .productContainer img {
   max-width: 100%;
+  transition: 0.5s ease-in-out;
 }
 .productContainer .button {
   border-radius: 0;
@@ -26,9 +27,11 @@
   padding: 8px 15px;
 }
 .productContainer .button-view {
+  transition: 0.3s ease-in-out;
   transform: translate(-50%, -40%);
   left: 50%;
   top: 40%;
+  visibility: hidden;
 }
 .productContainer .cartButton {
   border-radius: 0%;
@@ -37,4 +40,12 @@
 .productContainer .cartButton:focus {
   box-shadow: none;
   outline: none;
+}
+
+.productContainer:hover .button-view {
+  visibility: visible;
+  transform: translate(-50%, -30%);
+}
+.productContainer:hover img {
+  opacity: 0.7;
 }/*# sourceMappingURL=Product.css.map */

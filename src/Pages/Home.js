@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Home.css";
 import { Button, Card } from "react-bootstrap";
 import Product from "../Components/Product";
+import Products from "../Variables/data";
 
 const categories = [
   ["Makeup", "Images/makeup.jpg"],
@@ -11,13 +12,16 @@ const categories = [
 ];
 
 function Home(props) {
+  const FeaturedProducts = Products.filter((item) => item.featured === true);
   return (
     <div>
       <section className="bannerContainer">
         <img className="banner" src="Images/banner.webp" alt="banner" />
         <div className="contentContainer">
           <h2>Headline that grabs people’s attention</h2>
-          <Button className="btn-dark button mt-5">SHOP NOW</Button>
+          <Button href="/shop" className="btn-dark button mt-5">
+            SHOP NOW
+          </Button>
         </div>
       </section>
       <section className="featured text-center">
@@ -27,9 +31,18 @@ function Home(props) {
           your chosen product collection
         </p>
         <div className="d-flex justify-content-around mt-5">
-          <Product />
-          <Product />
-          <Product />
+          {FeaturedProducts.map((item) => {
+            const salePrice = Math.round((item.price * item.discount) / 100);
+            return (
+              <Product
+                image={item.image}
+                sale={item.discount > 0 ? true : false}
+                title={item.title}
+                price={item.price}
+                salePrice={salePrice}
+              />
+            );
+          })}
         </div>
       </section>
       <section className="highlight">
@@ -40,7 +53,9 @@ function Home(props) {
             What differentiates you from the competition? Use this section to
             talk about it. Don’t forget to talk about the benefits.
           </p>
-          <Button className="btn-dark button mt-5">SHOP NOW</Button>
+          <Button href="/shop" className="btn-dark button mt-5">
+            SHOP NOW
+          </Button>
         </div>
       </section>
       <section className="categories text-center">

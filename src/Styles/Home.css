@@ -23,6 +23,7 @@ img {
 .contentContainer .button {
   border-radius: 0;
   padding: 15px 30px;
+  box-shadow: none;
 }
 
 .featured,
@@ -37,6 +38,7 @@ img {
 .highlight .button {
   border-radius: 0;
   padding: 15px 30px;
+  box-shadow: none;
 }
 .highlight p {
   margin-top: 20px;

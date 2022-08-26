@@ -1,4 +1,13 @@
 @import "../App.css";
+.shop {
+  width: 90%;
+}
+.shop .products {
+  gap: 56px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 .heading {
   padding-top: 80px;
   padding-bottom: 80px;

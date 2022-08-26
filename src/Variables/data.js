@@ -16,7 +16,7 @@ const Products = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
     price: 16,
     discount: 25,
-    featured: false,
+    featured: true,
     image: "Images/id2.jpg",
   },
   {
@@ -66,7 +66,7 @@ const Products = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
     price: 14,
     discount: 0,
-    featured: false,
+    featured: true,
     image: "Images/id7.jpg",
   },
   {
