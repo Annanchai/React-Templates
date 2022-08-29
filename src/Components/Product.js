@@ -14,9 +14,12 @@ const Product = ({ title, sale, price, image, salePrice }) => {
       <div className="text-center">
         <a href="/">{title}</a>
         <div className="d-flex justify-content-center">
-          {sale ? <p>${salePrice}</p> : ""}
-
-          <p>${price}</p>
+          {sale ? (
+            <p className="salePrice">${price}.00</p>
+          ) : (
+            <p className="price">${price}.00</p>
+          )}
+          {sale ? <p className="price">${salePrice}.00</p> : ""}
         </div>
         <Button className="cartButton btn-dark">ADD TO CART</Button>
       </div>

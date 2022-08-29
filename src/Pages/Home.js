@@ -3,6 +3,7 @@ import "../Styles/Home.css";
 import { Button, Card } from "react-bootstrap";
 import Product from "../Components/Product";
 import Products from "../Variables/data";
+import ViewModal from "../Components/ViewModal";
 
 const categories = [
   ["Makeup", "Images/makeup.jpg"],
@@ -11,7 +12,7 @@ const categories = [
   ["Treatments", "Images/treatments.jpg"],
 ];
 
-function Home(props) {
+function Home() {
   const FeaturedProducts = Products.filter((item) => item.featured === true);
   return (
     <div>
@@ -79,6 +80,7 @@ function Home(props) {
           })}
         </div>
       </section>
+      <ViewModal />
     </div>
   );
 }

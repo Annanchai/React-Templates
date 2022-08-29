@@ -1,18 +1,17 @@
 import React from "react";
+import Heading from "../Components/Heading";
 import Product from "../Components/Product";
 import "../Styles/Shop.css";
 import Products from "../Variables/data";
 
-function Shop(props) {
+function Shop() {
   return (
     <div className="shop ms-auto me-auto">
-      <section className="heading text-center">
-        <h2>Shop</h2>
-        <p className="w-50 ms-auto me-auto">
-          State the biggest use case of your product. Briefly expand on how this
-          will help your customers.
-        </p>
-      </section>
+      <Heading
+        title="Shop"
+        content="State the biggest use case of your product. Briefly expand on how this
+          will help your customers."
+      />
       <section className="products d-flex flex-wrap">
         {Products.map((item) => {
           const salePrice = Math.round((item.price * item.discount) / 100);

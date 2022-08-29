@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Footer.css";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
-function Footer(props) {
+function Footer() {
   return (
     <footer className="pt-5 pb-5 ">
       <div className="linksContainer d-flex justify-content-between ms-auto me-auto">

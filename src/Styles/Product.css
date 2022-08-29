@@ -33,6 +33,14 @@
   top: 40%;
   visibility: hidden;
 }
+.productContainer .salePrice {
+  color: grey;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+.productContainer .price {
+  font-weight: 600;
+}
 .productContainer .cartButton {
   border-radius: 0%;
   padding: 10px 30px;
