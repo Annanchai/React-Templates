@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Home.css";
 import { Button, Card } from "react-bootstrap";
 import Product from "../Components/Product";
-import Products from "../Variables/data";
+import { Products } from "../Variables/data";
 import ViewModal from "../Components/ViewModal";
 
 const categories = [
@@ -33,7 +33,9 @@ function Home() {
         </p>
         <div className="d-flex justify-content-around mt-5">
           {FeaturedProducts.map((item) => {
-            const salePrice = Math.round((item.price * item.discount) / 100);
+            const salePrice = Math.round(
+              item.price - (item.price * item.discount) / 100
+            );
             return (
               <Product
                 image={item.image}

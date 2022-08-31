@@ -1,0 +1,17 @@
+@import "../App.css";
+.blogContainer {
+  width: 80%;
+}
+
+.description {
+  font-size: 17px;
+}
+
+.quote {
+  width: 90%;
+  font-weight: 500;
+}
+
+.blogContent {
+  border-bottom: 1px solid lightgrey;
+}/*# sourceMappingURL=BlogPage.css.map */

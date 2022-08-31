@@ -1,0 +1,17 @@
+@import "../Variables/variables";
+@import "../App.css";
+
+.blogContainer {
+  width: 80%;
+}
+.description {
+  font-size: 17px;
+}
+.quote {
+  width: 90%;
+  font-weight: 500;
+}
+
+.blogContent {
+  border-bottom: $border;
+}
