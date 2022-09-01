@@ -1,17 +1,17 @@
 @import "../App.css";
-.blogContainer {
+.blogPage {
   width: 80%;
 }
-
-.description {
+.blogPage .description {
   font-size: 17px;
 }
-
-.quote {
+.blogPage .quote {
   width: 90%;
   font-weight: 500;
 }
-
-.blogContent {
+.blogPage .blogContent {
   border-bottom: 1px solid lightgrey;
+}
+.blogPage form {
+  background-color: #f5f5f5;
 }/*# sourceMappingURL=BlogPage.css.map */

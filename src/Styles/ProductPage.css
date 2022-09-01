@@ -1,0 +1,15 @@
+@import "../App.css";
+.productPage .product .variants img {
+  width: 60px;
+}
+.productPage .product .variants img:hover {
+  border: 1px solid black;
+}
+.productPage .product .salePrice {
+  color: grey;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+.productPage .product .price {
+  font-weight: 600;
+}/*# sourceMappingURL=ProductPage.css.map */

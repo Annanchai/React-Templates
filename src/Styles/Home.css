@@ -1,57 +1,51 @@
 @import "../App.css";
-.bannerContainer {
+.home .bannerContainer {
   overflow: hidden;
 }
-
-.banner {
+.home .banner {
   transform: scale(1.2);
 }
-
-img {
+.home img {
   max-width: 100%;
 }
-
-.contentContainer {
+.home .contentContainer {
   position: absolute;
   top: 300px;
   left: 100px;
 }
-.contentContainer h2 {
+.home .contentContainer h2 {
   font-size: 60px;
   width: 600px;
 }
-.contentContainer .button {
+.home .contentContainer .button {
   border-radius: 0;
   padding: 15px 30px;
   box-shadow: none;
 }
-
-.featured,
-.categories {
+.home .featured,
+.home .categories {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-.highlight {
+.home .highlight {
   position: relative;
 }
-.highlight .button {
+.home .highlight .button {
   border-radius: 0;
   padding: 15px 30px;
   box-shadow: none;
 }
-.highlight p {
+.home .highlight p {
   margin-top: 20px;
 }
-.highlight .highlightContent {
+.home .highlight .highlightContent {
   width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
 }
-
-.categories .card {
+.home .categories .card {
   width: 20%;
   border: none;
   border-radius: 0%;

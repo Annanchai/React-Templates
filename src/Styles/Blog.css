@@ -1,16 +1,15 @@
 @import "../App.css";
-.content {
+.blog .content {
   font-size: 18px;
   -webkit-line-clamp: 4;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-
-img {
+.blog img {
+  max-width: 100%;
   transition: 0.5s ease;
 }
-
-img:hover {
+.blog img:hover {
   opacity: 0.8;
 }/*# sourceMappingURL=Blog.css.map */

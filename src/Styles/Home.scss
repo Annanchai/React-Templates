@@ -1,65 +1,67 @@
 @import "../Variables/variables";
 @import "../App.css";
 
-.bannerContainer {
-  overflow: hidden;
-}
-.banner {
-  transform: scale(1.2);
-}
-
-img {
-  max-width: 100%;
-}
-
-.contentContainer {
-  position: absolute;
-  top: 300px;
-  left: 100px;
-
-  h2 {
-    font-size: 60px;
-    width: 600px;
+.home {
+  .bannerContainer {
+    overflow: hidden;
+  }
+  .banner {
+    transform: scale(1.2);
   }
 
-  .button {
-    border-radius: 0;
-    padding: 15px 30px;
-    box-shadow: none;
-  }
-}
-
-.featured,
-.categories {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.highlight {
-  position: relative;
-  .button {
-    border-radius: 0;
-    padding: 15px 30px;
-    box-shadow: none;
+  img {
+    max-width: 100%;
   }
 
-  p {
-    margin-top: 20px;
-  }
-
-  .highlightContent {
-    width: 100%;
+  .contentContainer {
     position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-  }
-}
+    top: 300px;
+    left: 100px;
 
-.categories {
-  .card {
-    width: 20%;
-    border: none;
-    border-radius: 0%;
+    h2 {
+      font-size: 60px;
+      width: 600px;
+    }
+
+    .button {
+      border-radius: 0;
+      padding: 15px 30px;
+      box-shadow: none;
+    }
+  }
+
+  .featured,
+  .categories {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .highlight {
+    position: relative;
+    .button {
+      border-radius: 0;
+      padding: 15px 30px;
+      box-shadow: none;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+
+    .highlightContent {
+      width: 100%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+  }
+
+  .categories {
+    .card {
+      width: 20%;
+      border: none;
+      border-radius: 0%;
+    }
   }
 }

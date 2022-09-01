@@ -1,18 +1,21 @@
 @import "../Variables/variables";
 @import "../App.css";
 
-.content {
-  font-size: 18px;
-  -webkit-line-clamp: 4;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
+.blog {
+  .content {
+    font-size: 18px;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
 
-img {
-  transition: 0.5s ease;
-}
+  img {
+    max-width: 100%;
+    transition: 0.5s ease;
+  }
 
-img:hover {
-  opacity: 0.8;
+  img:hover {
+    opacity: 0.8;
+  }
 }

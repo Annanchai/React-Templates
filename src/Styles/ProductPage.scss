@@ -1,0 +1,24 @@
+@import "../Variables/variables";
+@import "../App.css";
+
+.productPage {
+  .product {
+    .variants {
+      img {
+        width: 60px;
+      }
+      img:hover {
+        border: 1px solid $primaryColor;
+      }
+    }
+    .salePrice {
+      color: grey;
+      margin-right: 10px;
+      text-decoration: line-through;
+    }
+
+    .price {
+      font-weight: 600;
+    }
+  }
+}

@@ -6,7 +6,7 @@ import "../Styles/Blog.css";
 
 function Blog() {
   return (
-    <div>
+    <div className="blog">
       <Heading
         title={"Blog"}
         content="State the biggest use case of your product. Briefly expand on how this

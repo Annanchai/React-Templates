@@ -1,31 +1,33 @@
 @import "../Variables/variables";
 @import "../App.css";
 
-nav {
-  p {
-    border-bottom: $border;
-    margin: 0;
-  }
-
-  ul {
-    li {
-      padding: 10px 10px 10px 10px;
-      transition: 0.5s ease;
+.navBar {
+  nav {
+    p {
+      border-bottom: $border;
+      margin: 0;
     }
-  }
 
-  .icon {
-    margin-right: 25px;
-    font-size: 25px;
-    cursor: pointer;
-  }
-
-  a:hover {
-    li {
-      color: $hoverColor;
+    ul {
+      li {
+        padding: 10px 10px 10px 10px;
+        transition: 0.5s ease;
+      }
     }
-  }
-  a:active {
-    border: $border;
+
+    .icon {
+      margin-right: 25px;
+      font-size: 25px;
+      cursor: pointer;
+    }
+
+    a:hover {
+      li {
+        color: $hoverColor;
+      }
+    }
+    a:active {
+      border: $border;
+    }
   }
 }

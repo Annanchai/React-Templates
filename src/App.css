@@ -25,4 +25,7 @@ body ul {
 }
 body ul li {
   list-style: none;
+}
+body .cursor-pointer {
+  cursor: pointer;
 }/*# sourceMappingURL=App.css.map */

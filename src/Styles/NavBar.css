@@ -1,20 +1,20 @@
 @import "../App.css";
-nav p {
+.navBar nav p {
   border-bottom: 1px solid lightgrey;
   margin: 0;
 }
-nav ul li {
+.navBar nav ul li {
   padding: 10px 10px 10px 10px;
   transition: 0.5s ease;
 }
-nav .icon {
+.navBar nav .icon {
   margin-right: 25px;
   font-size: 25px;
   cursor: pointer;
 }
-nav a:hover li {
+.navBar nav a:hover li {
   color: lightgrey;
 }
-nav a:active {
+.navBar nav a:active {
   border: 1px solid lightgrey;
 }/*# sourceMappingURL=NavBar.css.map */

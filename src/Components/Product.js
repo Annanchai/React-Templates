@@ -2,20 +2,11 @@ import React, { useState } from "react";
 import "../Styles/Product.css";
 import { Button } from "react-bootstrap";
 import ViewModal from "./ViewModal";
+import { dec, inc } from "../Components/Counter";
 
-const Product = ({ title, sale, price, image, salePrice }) => {
+const Product = ({ title, sale, price, image, salePrice, slug }) => {
   const [openModal, setOpenModal] = useState(false);
   const [count, setCount] = useState(1);
-  const dec = () => {
-    if (count === 1) {
-      return count;
-    } else {
-      setCount(count - 1);
-    }
-  };
-  const inc = () => {
-    setCount(count + 1);
-  };
   return (
     <div className="productContainer">
       <div>
@@ -30,7 +21,7 @@ const Product = ({ title, sale, price, image, salePrice }) => {
         </Button>
       </div>
       <div className="text-center">
-        <a href="/">{title}</a>
+        <a href={slug}>{title}</a>
         <div className="d-flex justify-content-center">
           {sale ? (
             <p className="salePrice">${price}.00</p>
@@ -50,8 +41,8 @@ const Product = ({ title, sale, price, image, salePrice }) => {
         image={image}
         title={title}
         count={count}
-        dec={dec}
-        inc={inc}
+        dec={() => dec(count, setCount)}
+        inc={() => inc(count, setCount)}
       />
     </div>
   );

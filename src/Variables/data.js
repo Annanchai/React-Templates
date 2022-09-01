@@ -4,6 +4,8 @@ export const Products = [
     title: "Deep Sweep 2% BHA Pore Cleaning Toner",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 21,
     discount: 0,
     featured: true,
@@ -14,6 +16,8 @@ export const Products = [
     title: "Eternal Sunset Collection Lip and Cheek",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 16,
     discount: 25,
     featured: true,
@@ -24,6 +28,8 @@ export const Products = [
     title: "Facial Treatment Essence (Pitera Essence)",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 21,
     discount: 15,
     featured: false,
@@ -34,6 +40,8 @@ export const Products = [
     title: "Mini Radiant Creamy Concealer and Blush",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 14,
     discount: 0,
     featured: false,
@@ -44,6 +52,8 @@ export const Products = [
     title: "Rare Earth Deep Pore Minimizing Cleansing",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 14,
     discount: 0,
     featured: false,
@@ -54,6 +64,8 @@ export const Products = [
     title: "Ultra Facial Moisturizing Cream",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 14,
     discount: 0,
     featured: false,
@@ -64,6 +76,8 @@ export const Products = [
     title: "Vinopure Pore Purifying Gel Cleanser",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 14,
     discount: 0,
     featured: true,
@@ -74,12 +88,18 @@ export const Products = [
     title: "Watermelon Glow Hyaluronic Clay Pore",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus congue nisi.",
+    detailDesc:
+      "Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: 14,
     discount: 0,
     featured: false,
     image: "Images/id8.jpg",
   },
 ];
+
+export const getProduct = (number) => {
+  return Products.find((item) => item.id === number);
+};
 
 export const Blogs = [
   {

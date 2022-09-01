@@ -7,16 +7,15 @@
   margin-top: 50px;
   margin-bottom: 100px;
 }
-
-.heading {
+.shop .heading {
   padding-top: 80px;
   padding-bottom: 80px;
   border-bottom: 1px solid lightgrey;
 }
-.heading h2 {
+.shop .heading h2 {
   font-size: 80px;
   font-weight: 400;
 }
-.heading p {
+.shop .heading p {
   font-size: 18px;
 }/*# sourceMappingURL=Shop.css.map */

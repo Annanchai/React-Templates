@@ -9,77 +9,50 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
-}
-
-.modalContainer {
-  position: fixed;
-  width: 70%;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  background-color: $secondaryColor;
-}
-
-.imageContainer {
-  .badge-sale {
-    position: absolute;
-    left: 80px;
-    top: 35px;
-    border-radius: 0%;
-    font-weight: 400;
-    font-size: 14px;
-    padding: 8px 15px;
-  }
-  .variants {
-    img {
-      max-width: 60px;
-    }
-    img:hover {
-      border: 1px solid $primaryColor;
-    }
-  }
-}
-
-.content {
-  h2 {
-    font-weight: 400;
-    font-size: 36px;
+  .modalContainer {
+    position: fixed;
     width: 70%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background-color: $secondaryColor;
   }
 
-  .salePrice,
-  .price {
-    font-size: 25px;
+  .imageContainer {
+    .badge-sale {
+      position: absolute;
+      left: 80px;
+      top: 35px;
+      border-radius: 0%;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+    .variants {
+      img {
+        max-width: 60px;
+      }
+      img:hover {
+        border: 1px solid $primaryColor;
+      }
+    }
   }
 
-  .description {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
+  .content {
+    h2 {
+      font-weight: 400;
+      font-size: 36px;
+      width: 70%;
+    }
 
-  .buttonContainer {
-    border-bottom: $border;
-  }
-
-  .counterContainer {
-    border: 2px solid $primaryColor;
-
-    p:first-of-type,
-    p:nth-of-type(3) {
-      font-weight: bold;
+    .salePrice,
+    .price {
       font-size: 25px;
-      margin: 0;
-      cursor: pointer;
-      user-select: none;
     }
-    p:first-of-type:hover,
-    p:nth-of-type(3):hover {
-      opacity: 0.8;
-    }
-    p:nth-of-type(2) {
-      font-size: 20px;
-      margin: 0;
-      user-select: none;
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 30px;
     }
   }
 }

@@ -13,8 +13,8 @@ function NavBar() {
     setShow(false);
   };
   return (
-    <div>
-      <nav className="">
+    <div className="navBar">
+      <nav>
         <div>
           <p className="shipping text-center pt-2 pb-2">
             Free shipping on orders over $100 with free returns

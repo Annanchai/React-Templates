@@ -15,7 +15,7 @@ const categories = [
 function Home() {
   const FeaturedProducts = Products.filter((item) => item.featured === true);
   return (
-    <div>
+    <div className="home">
       <section className="bannerContainer">
         <img className="banner" src="Images/banner.webp" alt="banner" />
         <div className="contentContainer">
@@ -43,6 +43,7 @@ function Home() {
                 title={item.title}
                 price={item.price}
                 salePrice={salePrice}
+                slug={`/shop/${item.id}`}
               />
             );
           })}

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/ViewModal.css";
 import { Button } from "react-bootstrap";
+import { Counter } from "./Counter";
 
 const ViewModal = ({
   open,
@@ -44,13 +45,9 @@ const ViewModal = ({
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus
             congue nisi.
           </p>
-          <div className="buttonContainer d-flex gap-5 justify-content-between align-items-center pb-3">
-            <div className="counterContainer pt-2 pb-2 ps-3 pe-3 d-flex gap-3 justify-content-center align-items-center">
-              <p onClick={dec}>-</p>
-              <p>{count}</p>
-              <p onClick={inc}>+</p>
-            </div>
-            <Button className="btn-dark border-radius-0 pt-3 pb-3 ps-4 pe-4 col-7">
+          <div className="border-bottom d-flex justify-content-between align-items-center pb-4">
+            <Counter count={count} dec={dec} inc={inc} />
+            <Button className="btn-dark rounded-0 pt-3 pb-3 ps-4 pe-4 col-7">
               ADD TO CART
             </Button>
           </div>

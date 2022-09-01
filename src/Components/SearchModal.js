@@ -7,7 +7,7 @@ import { BiUser } from "react-icons/bi";
 
 const SearchModal = ({ show, handleClose }) => {
   return (
-    <div>
+    <div className="searchModal">
       <Modal
         show={show}
         dialogClassName="modal-100w"
