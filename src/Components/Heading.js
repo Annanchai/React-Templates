@@ -1,11 +1,12 @@
 import React from "react";
+import "../Styles/Heading.css";
 
-const Heading = ({ title, content }) => {
+const Heading = ({ title, content, showContent }) => {
   return (
-    <div>
-      <section className="heading text-center">
+    <div className="heading">
+      <section className="text-center">
         <h2>{title}</h2>
-        <p className="w-50 ms-auto me-auto">{content}</p>
+        {showContent ? <p className="w-50 ms-auto me-auto">{content}</p> : ""}
       </section>
     </div>
   );

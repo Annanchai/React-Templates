@@ -11,6 +11,7 @@ function Shop() {
         title="Shop"
         content="State the biggest use case of your product. Briefly expand on how this
           will help your customers."
+        showContent={true}
       />
       <section className="products d-flex flex-wrap">
         {Products.map((item) => {
