@@ -14,6 +14,7 @@ const categories = [
 
 function Home() {
   const FeaturedProducts = Products.filter((item) => item.featured === true);
+
   return (
     <div className="home">
       <section className="bannerContainer">

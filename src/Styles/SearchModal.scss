@@ -1,34 +1,38 @@
 @import "../Variables/variables";
 @import "../App.css";
 
-.searchModal {
-  .modal-100w {
-    min-width: 100%;
-    margin-top: 40px;
+.modal-100w {
+  min-width: 100%;
+  margin-top: 40px;
+}
+.border-radius-0 {
+  border-radius: 0%;
+}
+
+.navIcon {
+  margin-right: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.searchBar {
+  .icon {
+    color: $secondaryColor;
+    font-size: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: $primaryColor;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
   }
-  .border-radius-0 {
-    border-radius: 0%;
+  input {
+    height: 50px;
+    max-width: 600px;
+    border: 2px solid $primaryColor;
+    padding: 5px;
   }
 
-  .searchBar {
-    .icon {
-      color: $secondaryColor;
-      font-size: 50px;
-      margin-left: 10px;
-      cursor: pointer;
-      background-color: $primaryColor;
-      padding: 10px;
-      transition: 0.5s ease-in-out;
-    }
-    input {
-      height: 50px;
-      max-width: 600px;
-      border: 2px solid $primaryColor;
-      padding: 5px;
-    }
-
-    .icon:hover {
-      opacity: 0.6;
-    }
+  .icon:hover {
+    opacity: 0.6;
   }
 }

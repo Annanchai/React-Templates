@@ -1,0 +1,8 @@
+@import "../App.css";
+.rating .star {
+  color: grey;
+  font-size: 25px;
+}
+.rating .active {
+  color: gold;
+}/*# sourceMappingURL=Rating.css.map */

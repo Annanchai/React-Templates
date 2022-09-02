@@ -10,7 +10,10 @@ const Product = ({ title, sale, price, image, salePrice, slug }) => {
   return (
     <div className="productContainer">
       <div>
-        <img src={image} alt="product" />
+        <a href={slug}>
+          <img className="cursor-pointer" src={image} alt="product" />
+        </a>
+
         {sale ? <span className="badge bg-dark badge-sale">SALE!</span> : ""}
 
         <Button

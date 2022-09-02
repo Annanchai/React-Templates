@@ -26,11 +26,11 @@ const SearchModal = ({ show, handleClose }) => {
               <div className="iconContainer col-4 text-end">
                 <BsX
                   onClick={handleClose}
-                  className="icon"
+                  className="navIcon"
                   style={{ fontSize: "40px" }}
                 />
-                <BiUser className="icon" />
-                <BsCart2 className="icon" />
+                <BiUser className="navIcon" />
+                <BsCart2 className="navIcon" />
               </div>
             </div>
           </nav>

@@ -24,6 +24,7 @@ function Shop() {
               title={item.title}
               price={item.price}
               salePrice={salePrice}
+              slug={`/shop/${item.id}`}
             />
           );
         })}

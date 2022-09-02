@@ -2,6 +2,7 @@
 @import "../App.css";
 
 .productPage {
+  width: 90%;
   .product {
     .variants {
       img {
@@ -20,5 +21,11 @@
     .price {
       font-weight: 600;
     }
+  }
+  .formContainer {
+    background-color: $tertiaryColor;
+  }
+  .reviews {
+    background-color: $tertiaryColor;
   }
 }

@@ -10,6 +10,8 @@ export const Products = [
     discount: 0,
     featured: true,
     image: "Images/id1.jpg",
+    reviews: [],
+    categories: "treatments",
   },
   {
     id: 2,
@@ -22,6 +24,8 @@ export const Products = [
     discount: 25,
     featured: true,
     image: "Images/id2.jpg",
+    reviews: [],
+    categories: "makeup",
   },
   {
     id: 3,
@@ -34,6 +38,8 @@ export const Products = [
     discount: 15,
     featured: false,
     image: "Images/id3.jpg",
+    reviews: [],
+    categories: "treatments",
   },
   {
     id: 4,
@@ -46,6 +52,8 @@ export const Products = [
     discount: 0,
     featured: false,
     image: "Images/id4.jpg",
+    reviews: [],
+    categories: "makeup",
   },
   {
     id: 5,
@@ -58,6 +66,8 @@ export const Products = [
     discount: 0,
     featured: false,
     image: "Images/id5.jpg",
+    reviews: [],
+    categories: "makeup",
   },
   {
     id: 6,
@@ -70,6 +80,8 @@ export const Products = [
     discount: 0,
     featured: false,
     image: "Images/id6.jpg",
+    reviews: [],
+    categories: "makeup",
   },
   {
     id: 7,
@@ -82,6 +94,8 @@ export const Products = [
     discount: 0,
     featured: true,
     image: "Images/id7.jpg",
+    reviews: [],
+    categories: "treatments",
   },
   {
     id: 8,
@@ -94,6 +108,8 @@ export const Products = [
     discount: 0,
     featured: false,
     image: "Images/id8.jpg",
+    reviews: [],
+    categories: "makeup",
   },
 ];
 

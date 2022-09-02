@@ -1,12 +1,20 @@
 @import "../App.css";
-.searchModal .modal-100w {
+.modal-100w {
   min-width: 100%;
   margin-top: 40px;
 }
-.searchModal .border-radius-0 {
+
+.border-radius-0 {
   border-radius: 0%;
 }
-.searchModal .searchBar .icon {
+
+.navIcon {
+  margin-right: 25px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.searchBar .icon {
   color: white;
   font-size: 50px;
   margin-left: 10px;
@@ -15,12 +23,12 @@
   padding: 10px;
   transition: 0.5s ease-in-out;
 }
-.searchModal .searchBar input {
+.searchBar input {
   height: 50px;
   max-width: 600px;
   border: 2px solid black;
   padding: 5px;
 }
-.searchModal .searchBar .icon:hover {
+.searchBar .icon:hover {
   opacity: 0.6;
 }/*# sourceMappingURL=SearchModal.css.map */

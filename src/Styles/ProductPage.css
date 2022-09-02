@@ -1,4 +1,7 @@
 @import "../App.css";
+.productPage {
+  width: 90%;
+}
 .productPage .product .variants img {
   width: 60px;
 }
@@ -12,4 +15,10 @@
 }
 .productPage .product .price {
   font-weight: 600;
+}
+.productPage .formContainer {
+  background-color: #f5f5f5;
+}
+.productPage .reviews {
+  background-color: #f5f5f5;
 }/*# sourceMappingURL=ProductPage.css.map */
